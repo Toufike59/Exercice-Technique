@@ -29,7 +29,7 @@ public class Event {
     }
 
     public String getTitle() {
-        return title;
+        return title + " ["+this.bands.stream().count()+"]";
     }
 
     public void setTitle(String title) {

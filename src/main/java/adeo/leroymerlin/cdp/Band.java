@@ -24,7 +24,7 @@ public class Band {
     }
 
     public String getName() {
-        return name;
+        return name + " ["+this.members.stream().count()+"]";
     }
 
     public void setName(String name) {
